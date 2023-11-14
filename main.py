@@ -235,7 +235,7 @@ class Button:
 def main():
     pg.init()
     screen = pg.display.set_mode((WIDTH, HEIGHT))
-    pg.display.set_caption("Spiral Ball Animation")
+    pg.display.set_caption("インベーダーゲーム")
     clock = pg.time.Clock()
     bg_img = pg.image.load("ex05/fig/background.png")
     tank = Tank(300, 500, "ex05/fig/player1.gif")
