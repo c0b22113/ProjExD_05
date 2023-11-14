@@ -10,9 +10,9 @@ WIDTH = 600
 HEIGHT = 600
 
 # 小球のスピードとサイズの定数
-BALL_SPEED =15
+BALL_SPEED = 10
 BALL_SIZE = 15
-BALLS_NUMBER = 12  # 小球の数
+BALLS_NUMBER = 8  # 小球の数
 
 
 def check_bound(obj: pg.Rect) -> tuple[bool, bool]:
