@@ -42,7 +42,7 @@ class SpiralBall(pg.sprite.Sprite):
 
     def update(self):
         self.radius += BALL_SPEED / 10
-        angular_velocity = BALL_SPEED + self.radius / 50
+        angular_velocity = BALL_SPEED / 5
         self.angle += math.radians(angular_velocity)
         self.rect.x = WIDTH // 2 + self.radius * math.cos(self.angle) - WIDTH // 2 + self.center[0]
         self.rect.y = HEIGHT // 2 + self.radius * math.sin(self.angle) - HEIGHT // 2 + self.center[1]
